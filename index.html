@@ -1,54 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfólio - João da Silva</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <img src="img/perfil.png" alt="Foto de perfil">
+
+    <header class="fade-in">
+        <img src="img/perfil.png" alt="Foto de perfil" class="perfil">
         <h1>João da Silva</h1>
         <p><em>Desenvolvimento Web | Designer UI/UX</em></p>
     </header>
-    <nav>
+
+    <nav id="menu">
         <a href="#sobre">Sobre</a>
         <a href="#habilidades">Habilidades</a>
-        <a href="#experiencia">Experiencia</a>
+        <a href="#experiencia">Experiência</a>
         <a href="#contato">Contato</a>
     </nav>
+
     <main>
-        <section id="sobre">
+        <section id="sobre" class="section fade-scroll">
             <h2>Sobre mim</h2>
-            <p>Sou um profissional apaixonado por tecnologia e design. Tenho experiência em desenvolvimento</p>
+            <p>Sou um profissional apaixonado por tecnologia e design. Tenho experiência em desenvolvimento.</p>
         </section>
-        <section id="habilidades">
-        <h2>Habilidades</h2>
-        <ul>
-            <li>HTML, CSS e JavaScript</li>
-            <li>React e Node.js</li>
-        </ul>
-        </section>
-        <section id="experiência">
-            <h2>Experiencia profissional</h2>
+
+        <section id="habilidades" class="section fade-scroll">
+            <h2>Habilidades</h2>
             <ul>
-                <li><strong>Desenvolvimento Front-end</strong> - Agência WebTech (2023 - Atual)</li>
-                <li><strong>Estágio em design</strong> - Studio design (2021 - 2023)</li>
+                <li>HTML, CSS e JavaScript</li>
+                <li>React e Node.js</li>
             </ul>
         </section>
-        <section id="sexo">
-            <h2>Apresentação em Vídeo</h2>
-            <iframe width="560" height="315" src=""></iframe>
+
+        <section id="experiencia" class="section fade-scroll">
+            <h2>Experiência profissional</h2>
+            <ul>
+                <li><strong>Desenvolvimento Front-end</strong> - Agência WebTech (2023 - Atual)</li>
+                <li><strong>Estágio em design</strong> - Studio Design (2021 - 2023)</li>
+            </ul>
         </section>
-        <section id="contato">
-            <h2>Apresentação e Redes Sociais</h2>
+
+        <section id="video" class="section fade-scroll">
+            <h2>Apresentação em Vídeo</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEOID"></iframe>
+        </section>
+
+        <section id="contato" class="section fade-scroll">
+            <h2>Contato</h2>
             <p><strong>Email:</strong> felipedossantos430@gmail.com</p>
             <p><strong>Telefone:</strong> (11) 99999-9999</p>
         </section>
     </main>
+
     <footer>
         <p>&copy; 2025 João da Silva - Todos os direitos reservados.</p>
     </footer>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
